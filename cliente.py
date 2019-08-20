@@ -32,7 +32,6 @@ if __name__ == "__main__":
         portacliente = str(porta+500)
         duracao = '10'
         banda = str(valorNormal(700,150))
-        u = np.random.randint(1,10000)
         if (int(portacliente) % 2 == 0):
             unidade = 'Mbits/sec'
         else:
