@@ -6,3 +6,7 @@ for i in range (10):
     porta += 1
     os.system(cmd)
     #print (cmd)
+
+#Abre os servidores de ping UDP
+os.system("socat UDP-LISTEN:7000,fork PIPE &")
+os.system("socat UDP-LISTEN:7001,fork PIPE &")
