@@ -17,13 +17,23 @@ INTERVAL = 1000  #unit ms
 LEN =64
 IP=""
 PORT=0
-OUTPORT=65536
+OUTPORT=56400
 
 count=0
 count_of_received=0
 rtt_sum=0.0
 rtt_min=99999999.0
 rtt_max=0.0
+
+def stopPing():
+	if count!=0 and count_of_received!=0:
+		print('')
+		print('--- ping statistics ---')
+	if count!=0:
+		print('%d packets transmitted, %d received, %.2f%% packet loss'%(count,count_of_received, (count-count_of_received)*100.0/count))
+	if count_of_received!=0:
+		print('rtt min/avg/max = %.2f/%.2f/%.2f ms'%(rtt_min,rtt_sum/count_of_received,rtt_max))
+	os._exit(0)
 
 def signal_handler(signal, frame):
 	if count!=0 and count_of_received!=0:
@@ -83,9 +93,11 @@ if not is_ipv6:
 else:
 	sock = socket.socket(socket.AF_INET6,socket.SOCK_DGRAM)
 
-print("UDPping %s via port %d with %d bytes of payload"% (IP,PORT,LEN))
+sock.bind(('10.1.0.2', OUTPORT)) #Bind ip cliente->porta de ida
+print("UDPping %s via ports %d->%d with %d bytes of payload"% (IP,OUTPORT,PORT,LEN))
 sys.stdout.flush()
 
+timeout_limit = 0
 while True:
 	payload= random_string(LEN)
 	sock.sendto(payload.encode(), (IP, PORT))
@@ -101,12 +113,13 @@ while True:
 		#print "timeout=",timeout
 		sock.settimeout(timeout);
 		try:
-			recv_data,addr = sock.recvfrom(OUTPORT) #Porta de ida
+			recv_data,addr = sock.recvfrom(65536) #Tamanho do buffer
 			if recv_data== payload.encode()  and addr[0]==IP and addr[1]==PORT:
 				rtt=((time.time()-time_of_send)*1000)
 				print("Reply from",IP,"seq=%d"%count, "time=%.2f"%(rtt),"ms")
 				sys.stdout.flush()
 				received=1
+				timeout_limit = 0
 				break
 		except socket.timeout:
 			break
@@ -120,8 +133,13 @@ while True:
 		rtt_min=min(rtt_min,rtt)
 	else:
 		print("Request timed out")
+		timeout_limit += 1
 		sys.stdout.flush()
-
+		if timeout_limit > 10:
+			print("Timeout limit reached, exiting")
+			sys.stdout.flush()
+			stopPing()
+	
 	time_remaining=deadline-time.time()
 	if(time_remaining>0):
 		time.sleep(time_remaining)
