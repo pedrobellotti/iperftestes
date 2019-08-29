@@ -10,9 +10,9 @@ print ("Timestamp,IpOri,PortaOri,IpDest,PortaDest,?,Tempo,BitsEnv,Banda,Jitter,P
 
 def ping():
     #Ping na porta par
-    os.system("./udpping.py 10.1.0.1 7000 65536")
+    os.system("./udpping.py 10.1.0.1 7000 65536 >> pingpar.txt")
     #Ping na porta impar
-    os.system("./udpping.py 10.1.0.1 7001 65537")
+    os.system("./udpping.py 10.1.0.1 7001 65537 >> pingimpar.txt")
 
 def executa(comando):
     os.system(comando)

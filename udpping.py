@@ -17,6 +17,7 @@ INTERVAL = 1000  #unit ms
 LEN =64
 IP=""
 PORT=0
+OUTPORT=65536
 
 count=0
 count_of_received=0
