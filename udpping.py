@@ -28,11 +28,15 @@ rtt_max=0.0
 def stopPing():
 	if count!=0 and count_of_received!=0:
 		print('')
+		sys.stdout.flush()
 		print('--- ping statistics ---')
+		sys.stdout.flush()
 	if count!=0:
 		print('%d packets transmitted, %d received, %.2f%% packet loss'%(count,count_of_received, (count-count_of_received)*100.0/count))
+		sys.stdout.flush()
 	if count_of_received!=0:
 		print('rtt min/avg/max = %.2f/%.2f/%.2f ms'%(rtt_min,rtt_sum/count_of_received,rtt_max))
+		sys.stdout.flush()
 	os._exit(0)
 
 def signal_handler(signal, frame):
@@ -135,7 +139,7 @@ while True:
 		print("Request timed out")
 		timeout_limit += 1
 		sys.stdout.flush()
-		if timeout_limit > 10:
+		if timeout_limit > 60:
 			print("Timeout limit reached, exiting")
 			sys.stdout.flush()
 			stopPing()

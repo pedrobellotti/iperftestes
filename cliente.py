@@ -10,9 +10,9 @@ print ("Timestamp,IpOri,PortaOri,IpDest,PortaDest,?,Tempo,BitsEnv,Banda,Jitter,P
 
 def ping():
     #Ping na porta par
-    os.system("./udpping.py 10.1.0.1 7000 65534 >> pingpar.txt &")
+    os.system("./udpping.py 10.1.0.1 7000 65534 >> pingSW.txt &")
     #Ping na porta impar
-    os.system("./udpping.py 10.1.0.1 7001 65535 >> pingimpar.txt &")
+    os.system("./udpping.py 10.1.0.1 7001 65535 >> pingHW.txt &")
 
 def executa(comando):
     os.system(comando)
@@ -40,13 +40,13 @@ ipcliente = '10.1.0.2'
 #Inicia o ping
 ping()
 #Inicia os iperfs
-for i in range (100): #Aumentar
+for i in range (200): #100->200
     portacliente = str(porta+500)
     duracao = valorNormal(90,30)
-    banda = valorExponencial(10000) #Diminuir
+    banda = valorExponencial(3000) #10000->4000->3000
     unidade = 'Kbits/sec'
     cmd = ('iperf -u -c %s --bind %s:%s -p %s -b %d%s -t %s -y C &' % (ipserver, ipcliente, portacliente, porta, banda, unidade, duracao))
-    tempo = valorExponencial(30) #Diminuir
+    tempo = valorExponencial(15) #30->10
     #print ('Executando em %d segundos, banda %d%s, bytes %d, pacotes %d' % (tempo, banda, unidade, numeroBytes, numeroPacotes))
     t = Timer(tempo, executa, [cmd])
     t.start() # Executa depois do tempo
