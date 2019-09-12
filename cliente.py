@@ -34,20 +34,28 @@ def valorNormal (media, desvio):
     else:
         return 0
 
+#Portas
 porta = 5001
+portacliente = porta+500
+#IPs
 ipserver = '10.1.0.1'
 ipcliente = '10.1.0.2'
+#Arquivo para salvar os dados dos iperfs
+f = open("iperfs.txt","w+")
+f.write("Inicio(seg) Duracao(seg) Banda(Kbps) PortaCli PortaServ\n")
 #Inicia o ping
 ping()
 #Inicia os iperfs
-for i in range (200): #100->200
-    portacliente = str(porta+500)
-    duracao = valorNormal(90,30)
-    banda = valorExponencial(3000) #10000->4000->3000
+for i in range (200): #Quantos iperfs vao ser gerados
+    duracao = valorNormal(90,30) #Duracao
+    banda = valorExponencial(3000) #Tamanho de cada iperf
     unidade = 'Kbits/sec'
-    cmd = ('iperf -u -c %s --bind %s:%s -p %s -b %d%s -t %s -y C &' % (ipserver, ipcliente, portacliente, porta, banda, unidade, duracao))
-    tempo = valorExponencial(15) #30->10
-    #print ('Executando em %d segundos, banda %d%s, bytes %d, pacotes %d' % (tempo, banda, unidade, numeroBytes, numeroPacotes))
+    cmd = ('iperf -u -c %s --bind %s:%d -p %s -b %d%s -t %s -y C &' % (ipserver, ipcliente, portacliente, porta, banda, unidade, duracao))
+    tempo = valorExponencial(15) #Tempo ate o inicio
     t = Timer(tempo, executa, [cmd])
     t.start() # Executa depois do tempo
     porta += 1
+    portacliente += 1
+    f.write("%d %d %d %d %d\n" % (tempo, duracao, banda, portacliente, porta)) #Escreve os dados no arquivo
+#Fecha o arquivo dos iperfs
+f.close()

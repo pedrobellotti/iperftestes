@@ -139,7 +139,7 @@ while True:
 		print("Request timed out")
 		timeout_limit += 1
 		sys.stdout.flush()
-		if timeout_limit > 60:
+		if timeout_limit > 10:
 			print("Timeout limit reached, exiting")
 			sys.stdout.flush()
 			stopPing()
