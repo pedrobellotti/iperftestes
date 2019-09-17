@@ -1,6 +1,6 @@
- Seed: 10
- Quant: 320
- Duracao(base): 90
- Duracao(desvio): 30
- Banda(media): 1915
- TempoIni(media): 15
+Seed: 10
+Quant: 320
+Duracao(base): 90
+Duracao(desvio): 30
+Banda(media): 1915
+TempoIni(media): 15
