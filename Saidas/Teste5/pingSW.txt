@@ -1,0 +1,44 @@
+UDPping 10.1.0.1 via ports 65534->7000 with 64 bytes of payload
+Reply from 10.1.0.1 seq=0 time=2.23 ms
+Reply from 10.1.0.1 seq=1 time=1.12 ms
+Reply from 10.1.0.1 seq=2 time=0.48 ms
+Reply from 10.1.0.1 seq=3 time=0.58 ms
+Reply from 10.1.0.1 seq=4 time=0.51 ms
+Reply from 10.1.0.1 seq=5 time=0.55 ms
+Reply from 10.1.0.1 seq=6 time=0.54 ms
+Reply from 10.1.0.1 seq=7 time=0.59 ms
+Reply from 10.1.0.1 seq=8 time=0.64 ms
+Reply from 10.1.0.1 seq=9 time=0.76 ms
+Reply from 10.1.0.1 seq=10 time=0.75 ms
+Reply from 10.1.0.1 seq=11 time=0.83 ms
+Request timed out
+Reply from 10.1.0.1 seq=13 time=7.79 ms
+Reply from 10.1.0.1 seq=14 time=0.78 ms
+Reply from 10.1.0.1 seq=15 time=0.59 ms
+Reply from 10.1.0.1 seq=16 time=0.60 ms
+Reply from 10.1.0.1 seq=17 time=0.72 ms
+Request timed out
+Request timed out
+Reply from 10.1.0.1 seq=20 time=247.84 ms
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Reply from 10.1.0.1 seq=25 time=32.85 ms
+Reply from 10.1.0.1 seq=26 time=197.28 ms
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Timeout limit reached, exiting
+
+--- ping statistics ---
+38 packets transmitted, 20 received, 47.37% packet loss
+rtt min/avg/max = 0.48/24.90/247.84 ms

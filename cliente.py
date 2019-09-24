@@ -45,8 +45,10 @@ desvioDuracao = 30
 quantidade = 320
 mediaBanda = 1910
 mediaTempoInicio = 15
+#metodo = "Par/Impar"
+metodo = "SW->HW"
 f = open("info.txt","w+")
-f.write("Seed: %d\nQuant: %d\nDuracao(base):%d\nDuracao(desvio): %d\nBanda(media): %d\nTempoIni(media): %d\n" % (seed, quantidade, baseDuracao, desvioDuracao, mediaBanda, mediaTempoInicio))
+f.write("Metodo: %s\nSeed: %d\nQuant: %d\nDuracao(base):%d\nDuracao(desvio): %d\nBanda(media): %d\nTempoIni(media): %d\n" % (metodo, seed, quantidade, baseDuracao, desvioDuracao, mediaBanda, mediaTempoInicio))
 f.close()
 #Arquivo para salvar os dados dos iperfs
 f = open("iperfs.txt","w+")
