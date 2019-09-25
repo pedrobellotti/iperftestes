@@ -56,11 +56,11 @@ ipcliente = '10.1.0.2'
 #Informacoes do iperf
 baseDuracao = 90
 desvioDuracao = 30
-quantidade = 10
+quantidade = 320
 mediaBanda = 1910
 mediaTempoInicio = 15
-#metodo = "Par/Impar"
-metodo = "SW->HW"
+metodo = "Par/Impar"
+#metodo = "SW->HW"
 f = open("info.txt","w+")
 f.write("Metodo: %s\nSeed: %d\nQuant: %d\nDuracao(base): %d\nDuracao(desvio): %d\nBanda(media): %d\nTempoIni(media): %d\n" % (metodo, seed, quantidade, baseDuracao, desvioDuracao, mediaBanda, mediaTempoInicio))
 f.close()
