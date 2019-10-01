@@ -49,14 +49,14 @@ def valorNormal (media, desvio):
 
 #Portas
 porta = 5001
-portacliente = porta+500
+portacliente = 3501
 #IPs
 ipserver = '10.1.0.1'
 ipcliente = '10.1.0.2'
 #Informacoes do iperf
 baseDuracao = 90
 desvioDuracao = 30
-quantidade = 320
+quantidade = 1000
 mediaBanda = 1910
 mediaTempoInicio = 15
 metodo = "Par/Impar"

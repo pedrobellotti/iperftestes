@@ -1,0 +1,209 @@
+UDPping 10.1.0.1 via ports 65534->7000 with 64 bytes of payload
+Reply from 10.1.0.1 seq=0 time=1.99 ms
+Reply from 10.1.0.1 seq=1 time=0.58 ms
+Reply from 10.1.0.1 seq=2 time=0.74 ms
+Reply from 10.1.0.1 seq=3 time=0.73 ms
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Reply from 10.1.0.1 seq=133 time=14.68 ms
+Reply from 10.1.0.1 seq=134 time=0.68 ms
+Reply from 10.1.0.1 seq=135 time=0.60 ms
+Reply from 10.1.0.1 seq=136 time=0.61 ms
+Reply from 10.1.0.1 seq=137 time=0.57 ms
+Reply from 10.1.0.1 seq=138 time=0.56 ms
+Reply from 10.1.0.1 seq=139 time=0.64 ms
+Reply from 10.1.0.1 seq=140 time=0.61 ms
+Reply from 10.1.0.1 seq=141 time=0.68 ms
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Reply from 10.1.0.1 seq=182 time=48.90 ms
+Reply from 10.1.0.1 seq=183 time=1.38 ms
+Reply from 10.1.0.1 seq=184 time=0.68 ms
+Reply from 10.1.0.1 seq=185 time=0.64 ms
+Reply from 10.1.0.1 seq=186 time=0.69 ms
+Reply from 10.1.0.1 seq=187 time=0.64 ms
+Reply from 10.1.0.1 seq=188 time=0.66 ms
+Reply from 10.1.0.1 seq=189 time=0.61 ms
+Reply from 10.1.0.1 seq=190 time=0.85 ms
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+
+--- ping statistics ---
+204 packets transmitted, 22 received, 89.22% packet loss
+rtt min/avg/max = 0.56/3.58/48.90 ms
