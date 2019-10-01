@@ -1,4 +1,4 @@
-Metodo: Par/Impar
+Metodo: SW->HW
 Seed: 10
 Quant: 1000
 Duracao(base): 90

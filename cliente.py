@@ -47,6 +47,9 @@ def valorNormal (media, desvio):
     else:
         return 0
 
+def valorUniforme (min, max):
+    return int(np.random.uniform(min,max))
+
 #Portas
 porta = 5001
 portacliente = 3501
