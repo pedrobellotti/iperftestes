@@ -1,0 +1,592 @@
+UDPping 10.1.0.1 via ports 65535->7001 with 64 bytes of payload
+Reply from 10.1.0.1 seq=0 time=40.70 ms
+Reply from 10.1.0.1 seq=1 time=4.05 ms
+Reply from 10.1.0.1 seq=2 time=0.53 ms
+Reply from 10.1.0.1 seq=3 time=0.58 ms
+Reply from 10.1.0.1 seq=4 time=0.50 ms
+Reply from 10.1.0.1 seq=5 time=0.51 ms
+Reply from 10.1.0.1 seq=6 time=0.45 ms
+Reply from 10.1.0.1 seq=7 time=0.54 ms
+Reply from 10.1.0.1 seq=8 time=0.58 ms
+Reply from 10.1.0.1 seq=9 time=0.50 ms
+Reply from 10.1.0.1 seq=10 time=0.53 ms
+Reply from 10.1.0.1 seq=11 time=0.59 ms
+Reply from 10.1.0.1 seq=12 time=0.54 ms
+Reply from 10.1.0.1 seq=13 time=0.68 ms
+Reply from 10.1.0.1 seq=14 time=0.64 ms
+Reply from 10.1.0.1 seq=15 time=0.56 ms
+Reply from 10.1.0.1 seq=16 time=0.53 ms
+Reply from 10.1.0.1 seq=17 time=0.47 ms
+Reply from 10.1.0.1 seq=18 time=0.47 ms
+Reply from 10.1.0.1 seq=19 time=0.58 ms
+Reply from 10.1.0.1 seq=20 time=0.62 ms
+Reply from 10.1.0.1 seq=21 time=0.42 ms
+Reply from 10.1.0.1 seq=22 time=0.43 ms
+Reply from 10.1.0.1 seq=23 time=0.64 ms
+Reply from 10.1.0.1 seq=24 time=0.54 ms
+Reply from 10.1.0.1 seq=25 time=0.66 ms
+Reply from 10.1.0.1 seq=26 time=0.61 ms
+Reply from 10.1.0.1 seq=27 time=0.73 ms
+Reply from 10.1.0.1 seq=28 time=0.64 ms
+Reply from 10.1.0.1 seq=29 time=0.58 ms
+Reply from 10.1.0.1 seq=30 time=0.58 ms
+Reply from 10.1.0.1 seq=31 time=0.55 ms
+Reply from 10.1.0.1 seq=32 time=0.44 ms
+Reply from 10.1.0.1 seq=33 time=0.54 ms
+Reply from 10.1.0.1 seq=34 time=0.65 ms
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Reply from 10.1.0.1 seq=66 time=1.74 ms
+Reply from 10.1.0.1 seq=67 time=1.17 ms
+Reply from 10.1.0.1 seq=68 time=0.63 ms
+Reply from 10.1.0.1 seq=69 time=0.73 ms
+Reply from 10.1.0.1 seq=70 time=0.57 ms
+Reply from 10.1.0.1 seq=71 time=0.74 ms
+Reply from 10.1.0.1 seq=72 time=0.99 ms
+Reply from 10.1.0.1 seq=73 time=0.83 ms
+Reply from 10.1.0.1 seq=74 time=0.88 ms
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Reply from 10.1.0.1 seq=106 time=146.83 ms
+Request timed out
+Reply from 10.1.0.1 seq=108 time=0.74 ms
+Reply from 10.1.0.1 seq=109 time=0.76 ms
+Reply from 10.1.0.1 seq=110 time=0.57 ms
+Reply from 10.1.0.1 seq=111 time=0.63 ms
+Reply from 10.1.0.1 seq=112 time=0.85 ms
+Reply from 10.1.0.1 seq=113 time=0.73 ms
+Reply from 10.1.0.1 seq=114 time=0.57 ms
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Reply from 10.1.0.1 seq=136 time=511.32 ms
+Reply from 10.1.0.1 seq=137 time=1.05 ms
+Reply from 10.1.0.1 seq=138 time=0.65 ms
+Reply from 10.1.0.1 seq=139 time=0.71 ms
+Reply from 10.1.0.1 seq=140 time=0.75 ms
+Reply from 10.1.0.1 seq=141 time=0.87 ms
+Reply from 10.1.0.1 seq=142 time=0.64 ms
+Reply from 10.1.0.1 seq=143 time=0.66 ms
+Reply from 10.1.0.1 seq=144 time=0.62 ms
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Reply from 10.1.0.1 seq=166 time=179.95 ms
+Reply from 10.1.0.1 seq=167 time=0.83 ms
+Reply from 10.1.0.1 seq=168 time=0.58 ms
+Reply from 10.1.0.1 seq=169 time=0.48 ms
+Reply from 10.1.0.1 seq=170 time=0.55 ms
+Reply from 10.1.0.1 seq=171 time=0.71 ms
+Reply from 10.1.0.1 seq=172 time=0.56 ms
+Reply from 10.1.0.1 seq=173 time=0.53 ms
+Reply from 10.1.0.1 seq=174 time=0.64 ms
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Reply from 10.1.0.1 seq=197 time=1.00 ms
+Reply from 10.1.0.1 seq=198 time=0.59 ms
+Reply from 10.1.0.1 seq=199 time=0.61 ms
+Reply from 10.1.0.1 seq=200 time=0.68 ms
+Reply from 10.1.0.1 seq=201 time=0.62 ms
+Reply from 10.1.0.1 seq=202 time=0.64 ms
+Reply from 10.1.0.1 seq=203 time=0.62 ms
+Reply from 10.1.0.1 seq=204 time=0.54 ms
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Reply from 10.1.0.1 seq=228 time=575.65 ms
+Reply from 10.1.0.1 seq=229 time=1.00 ms
+Reply from 10.1.0.1 seq=230 time=0.59 ms
+Reply from 10.1.0.1 seq=231 time=0.58 ms
+Reply from 10.1.0.1 seq=232 time=0.58 ms
+Reply from 10.1.0.1 seq=233 time=0.56 ms
+Reply from 10.1.0.1 seq=234 time=0.71 ms
+Reply from 10.1.0.1 seq=235 time=0.62 ms
+Reply from 10.1.0.1 seq=236 time=0.66 ms
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Reply from 10.1.0.1 seq=258 time=255.11 ms
+Reply from 10.1.0.1 seq=259 time=1.12 ms
+Reply from 10.1.0.1 seq=260 time=0.62 ms
+Reply from 10.1.0.1 seq=261 time=0.73 ms
+Reply from 10.1.0.1 seq=262 time=0.74 ms
+Reply from 10.1.0.1 seq=263 time=0.75 ms
+Reply from 10.1.0.1 seq=264 time=0.67 ms
+Reply from 10.1.0.1 seq=265 time=0.67 ms
+Reply from 10.1.0.1 seq=266 time=0.65 ms
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Reply from 10.1.0.1 seq=286 time=912.21 ms
+Reply from 10.1.0.1 seq=287 time=1.03 ms
+Reply from 10.1.0.1 seq=288 time=0.86 ms
+Reply from 10.1.0.1 seq=289 time=0.74 ms
+Reply from 10.1.0.1 seq=290 time=0.75 ms
+Reply from 10.1.0.1 seq=291 time=0.69 ms
+Reply from 10.1.0.1 seq=292 time=0.65 ms
+Reply from 10.1.0.1 seq=293 time=0.72 ms
+Reply from 10.1.0.1 seq=294 time=0.72 ms
+Reply from 10.1.0.1 seq=295 time=0.73 ms
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Reply from 10.1.0.1 seq=316 time=0.96 ms
+Reply from 10.1.0.1 seq=317 time=0.71 ms
+Reply from 10.1.0.1 seq=318 time=0.60 ms
+Reply from 10.1.0.1 seq=319 time=0.73 ms
+Reply from 10.1.0.1 seq=320 time=0.68 ms
+Reply from 10.1.0.1 seq=321 time=0.91 ms
+Reply from 10.1.0.1 seq=322 time=0.86 ms
+Reply from 10.1.0.1 seq=323 time=0.73 ms
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Reply from 10.1.0.1 seq=344 time=213.69 ms
+Reply from 10.1.0.1 seq=345 time=0.81 ms
+Reply from 10.1.0.1 seq=346 time=0.83 ms
+Reply from 10.1.0.1 seq=347 time=0.80 ms
+Reply from 10.1.0.1 seq=348 time=0.69 ms
+Reply from 10.1.0.1 seq=349 time=0.79 ms
+Reply from 10.1.0.1 seq=350 time=0.84 ms
+Reply from 10.1.0.1 seq=351 time=0.88 ms
+Reply from 10.1.0.1 seq=352 time=0.76 ms
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Reply from 10.1.0.1 seq=374 time=859.55 ms
+Reply from 10.1.0.1 seq=375 time=0.84 ms
+Reply from 10.1.0.1 seq=376 time=0.85 ms
+Reply from 10.1.0.1 seq=377 time=0.80 ms
+Reply from 10.1.0.1 seq=378 time=0.88 ms
+Reply from 10.1.0.1 seq=379 time=0.87 ms
+Reply from 10.1.0.1 seq=380 time=0.83 ms
+Reply from 10.1.0.1 seq=381 time=0.85 ms
+Reply from 10.1.0.1 seq=382 time=0.75 ms
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Reply from 10.1.0.1 seq=405 time=550.30 ms
+Reply from 10.1.0.1 seq=406 time=0.97 ms
+Reply from 10.1.0.1 seq=407 time=0.90 ms
+Reply from 10.1.0.1 seq=408 time=0.85 ms
+Reply from 10.1.0.1 seq=409 time=0.82 ms
+Reply from 10.1.0.1 seq=410 time=0.87 ms
+Reply from 10.1.0.1 seq=411 time=0.93 ms
+Reply from 10.1.0.1 seq=412 time=0.81 ms
+Reply from 10.1.0.1 seq=413 time=0.85 ms
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Reply from 10.1.0.1 seq=438 time=1.38 ms
+Reply from 10.1.0.1 seq=439 time=0.82 ms
+Reply from 10.1.0.1 seq=440 time=0.87 ms
+Reply from 10.1.0.1 seq=441 time=0.89 ms
+Reply from 10.1.0.1 seq=442 time=0.82 ms
+Reply from 10.1.0.1 seq=443 time=0.77 ms
+Reply from 10.1.0.1 seq=444 time=0.88 ms
+Reply from 10.1.0.1 seq=445 time=0.92 ms
+Reply from 10.1.0.1 seq=446 time=0.87 ms
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Reply from 10.1.0.1 seq=467 time=194.21 ms
+Reply from 10.1.0.1 seq=468 time=0.95 ms
+Reply from 10.1.0.1 seq=469 time=0.90 ms
+Reply from 10.1.0.1 seq=470 time=0.85 ms
+Reply from 10.1.0.1 seq=471 time=0.99 ms
+Reply from 10.1.0.1 seq=472 time=0.81 ms
+Reply from 10.1.0.1 seq=473 time=0.89 ms
+Reply from 10.1.0.1 seq=474 time=0.94 ms
+Reply from 10.1.0.1 seq=475 time=0.95 ms
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Reply from 10.1.0.1 seq=498 time=107.48 ms
+Reply from 10.1.0.1 seq=499 time=0.97 ms
+Reply from 10.1.0.1 seq=500 time=0.88 ms
+Reply from 10.1.0.1 seq=501 time=0.80 ms
+Reply from 10.1.0.1 seq=502 time=0.83 ms
+Reply from 10.1.0.1 seq=503 time=0.98 ms
+Reply from 10.1.0.1 seq=504 time=0.89 ms
+Reply from 10.1.0.1 seq=505 time=0.90 ms
+Reply from 10.1.0.1 seq=506 time=0.82 ms
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Reply from 10.1.0.1 seq=527 time=264.95 ms
+Reply from 10.1.0.1 seq=528 time=0.89 ms
+Reply from 10.1.0.1 seq=529 time=0.90 ms
+Reply from 10.1.0.1 seq=530 time=0.87 ms
+Reply from 10.1.0.1 seq=531 time=0.92 ms
+Reply from 10.1.0.1 seq=532 time=0.87 ms
+Reply from 10.1.0.1 seq=533 time=0.88 ms
+Reply from 10.1.0.1 seq=534 time=0.89 ms
+Reply from 10.1.0.1 seq=535 time=0.98 ms
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Reply from 10.1.0.1 seq=557 time=165.87 ms
+Reply from 10.1.0.1 seq=558 time=0.89 ms
+Reply from 10.1.0.1 seq=559 time=0.91 ms
+Reply from 10.1.0.1 seq=560 time=0.98 ms
+Reply from 10.1.0.1 seq=561 time=0.91 ms
+Reply from 10.1.0.1 seq=562 time=0.96 ms
+Reply from 10.1.0.1 seq=563 time=0.96 ms
+Reply from 10.1.0.1 seq=564 time=0.86 ms
+Reply from 10.1.0.1 seq=565 time=0.91 ms
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+Request timed out
+
+--- ping statistics ---
+587 packets transmitted, 186 received, 68.31% packet loss
+rtt min/avg/max = 0.42/27.48/912.21 ms
