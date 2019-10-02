@@ -1,0 +1,7 @@
+Metodo: SW->HW
+Seed: 10
+Quant: 1000
+Duracao(min): 1
+Duracao(max): 120
+Banda(media): 1910
+TempoIni(media): 20

@@ -35,17 +35,17 @@ def executa(comando):
 
 def valorExponencial (media):
     x = int(np.random.exponential(media))
-    if x > 0:
+    if x >= 0:
         return x
     else:
-        return 0
+        return valorExponencial(media)
 
 def valorNormal (media, desvio):
     x = int(np.random.normal(media, desvio))
-    if x > 0:
+    if x >= 0:
         return x
     else:
-        return 0
+        return valorNormal(media,desvio)
 
 def valorUniforme (min, max):
     return int(np.random.uniform(min,max))
@@ -57,15 +57,15 @@ portacliente = 3501
 ipserver = '10.1.0.1'
 ipcliente = '10.1.0.2'
 #Informacoes do iperf
-baseDuracao = 90
-desvioDuracao = 30
+minDuracao = 1
+maxDuracao = 120
 quantidade = 1000
 mediaBanda = 1910
-mediaTempoInicio = 15
+mediaTempoInicio = 20
 metodo = "Par/Impar"
 #metodo = "SW->HW"
 f = open("info.txt","w+")
-f.write("Metodo: %s\nSeed: %d\nQuant: %d\nDuracao(base): %d\nDuracao(desvio): %d\nBanda(media): %d\nTempoIni(media): %d\n" % (metodo, seed, quantidade, baseDuracao, desvioDuracao, mediaBanda, mediaTempoInicio))
+f.write("Metodo: %s\nSeed: %d\nQuant: %d\nDuracao(min): %d\nDuracao(max): %d\nBanda(media): %d\nTempoIni(media): %d\n" % (metodo, seed, quantidade, minDuracao, maxDuracao, mediaBanda, mediaTempoInicio))
 f.close()
 #Arquivo para salvar os dados dos iperfs
 f = open("iperfs.txt","w+")
@@ -76,7 +76,7 @@ idP2 = pingHW()
 maiorDuracao = 0
 #Inicia os iperfs
 for i in range (quantidade): #Quantos iperfs vao ser gerados
-    duracao = valorNormal(baseDuracao,desvioDuracao) #Duracao
+    duracao = valorUniforme(minDuracao,maxDuracao) #Duracao
     banda = valorExponencial(mediaBanda) #Tamanho de cada iperf
     unidade = 'Kbits/sec'
     cmd = ('iperf -u -c %s --bind %s:%d -p %s -b %d%s -t %s -y C &' % (ipserver, ipcliente, portacliente, porta, banda, unidade, duracao))
@@ -90,6 +90,7 @@ for i in range (quantidade): #Quantos iperfs vao ser gerados
     if (soma > maiorDuracao):
         maiorDuracao = soma
 #Fecha o arquivo dos iperfs
+f.write("Maior duracao (segundos): %d" % (maiorDuracao))
 f.close()
 #Fecha os pings depois do maior tempo de duracao de iperf
 tp = Timer(maiorDuracao+3, killPing, [idP1, idP2])
