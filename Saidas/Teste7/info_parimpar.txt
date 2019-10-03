@@ -1,5 +1,4 @@
 Tempo Switch RegrasInstaladas RegrasAceitas RegrasBloqueadas BytesEnviados
-Tempo Switch RegrasInstaladas RegrasAceitas RegrasBloqueadas BytesEnviados
 20 HW 47 250 1342 76697712
 20 SW 131 977 0 180801936
 35 HW 54 470 2244 282405312

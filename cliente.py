@@ -51,17 +51,17 @@ def valorUniforme (min, max):
     return int(np.random.uniform(min,max))
 
 #Portas
-porta = 5001
-portacliente = 3501
+porta = 4001
+portacliente = 8501
 #IPs
 ipserver = '10.1.0.1'
 ipcliente = '10.1.0.2'
 #Informacoes do iperf
-minDuracao = 1
-maxDuracao = 120
+minDuracao = 10
+maxDuracao = 130
 quantidade = 1000
 mediaBanda = 1910
-mediaTempoInicio = 50
+mediaTempoInicio = 55
 #metodo = "Par/Impar"
 metodo = "SW->HW"
 f = open("info.txt","w+")

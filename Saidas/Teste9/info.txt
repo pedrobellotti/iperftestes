@@ -1,0 +1,7 @@
+Metodo: Par/Impar
+Seed: 10
+Quant: 1000
+Duracao(min): 10
+Duracao(max): 130
+Banda(media): 1910
+TempoIni(media): 55
