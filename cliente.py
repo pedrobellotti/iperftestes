@@ -34,21 +34,21 @@ def executa(comando):
     #print (comando)
 
 def valorExponencial (media):
-    x = int(np.random.exponential(media))
+    x = float(np.random.exponential(media))
     if x >= 0:
         return x
     else:
         return valorExponencial(media)
 
 def valorNormal (media, desvio):
-    x = int(np.random.normal(media, desvio))
+    x = float(np.random.normal(media, desvio))
     if x >= 0:
         return x
     else:
         return valorNormal(media,desvio)
 
 def valorUniforme (min, max):
-    return int(np.random.uniform(min,max))
+    return float(np.random.uniform(min,max))
 
 #Portas
 porta = 4001
@@ -57,23 +57,24 @@ portacliente = 8501
 ipserver = '10.1.0.1'
 ipcliente = '10.1.0.2'
 #Informacoes do iperf
-minDuracao = 10
-maxDuracao = 130
-quantidade = 1000
-mediaBanda = 1910
-mediaTempoInicio = 55
-#metodo = "Par/Impar"
-metodo = "SW->HW"
+minDuracao = 5.0
+maxDuracao = 100.0
+quantidade = 500
+mediaBanda = 1910.0
+mediaTempoInicio = 1.0
+metodo = "Par/Impar"
+#metodo = "SW->HW"
 f = open("info.txt","w+")
 f.write("Metodo: %s\nSeed: %d\nQuant: %d\nDuracao(min): %d\nDuracao(max): %d\nBanda(media): %d\nTempoIni(media): %d\n" % (metodo, seed, quantidade, minDuracao, maxDuracao, mediaBanda, mediaTempoInicio))
 f.close()
 #Arquivo para salvar os dados dos iperfs
 f = open("iperfs.txt","w+")
-f.write("Inicio(seg) Duracao(seg) Banda(Kbps) PortaCli PortaServ\n")
+f.write("Inicio(seg)\tDuracao(seg)\tBanda(Kbps)\tPCli\tPServ\n")
 #Inicia o ping
 idP1 = pingSW()
 idP2 = pingHW()
-maiorDuracao = 0
+maiorDuracao = 0.0
+tempoSoma = 0.0
 #Inicia os iperfs
 for i in range (quantidade): #Quantos iperfs vao ser gerados
     duracao = valorUniforme(minDuracao,maxDuracao) #Duracao
@@ -81,12 +82,13 @@ for i in range (quantidade): #Quantos iperfs vao ser gerados
     unidade = 'Kbits/sec'
     cmd = ('iperf -u -c %s --bind %s:%d -p %s -b %d%s -t %s -y C &' % (ipserver, ipcliente, portacliente, porta, banda, unidade, duracao))
     tempo = valorExponencial(mediaTempoInicio) #Tempo ate o inicio
-    t = Timer(tempo, executa, [cmd])
+    tempoSoma += tempo
+    t = Timer(tempoSoma, executa, [cmd])
     t.start() # Executa depois do tempo
-    f.write("%d %d %d %d %d\n" % (tempo, duracao, banda, portacliente, porta)) #Escreve os dados no arquivo
+    f.write("%f\t%f\t%f\t%d\t%d\n" % (tempoSoma, duracao, banda, portacliente, porta)) #Escreve os dados no arquivo
     porta += 1
     portacliente += 1
-    soma = duracao+tempo
+    soma = duracao+tempoSoma
     if (soma > maiorDuracao):
         maiorDuracao = soma
 #Fecha o arquivo dos iperfs
