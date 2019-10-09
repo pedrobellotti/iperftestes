@@ -50,6 +50,15 @@ def valorNormal (media, desvio):
 def valorUniforme (min, max):
     return float(np.random.uniform(min,max))
 
+#Handler para CTRL+C
+def signal_handler(signal, frame):
+    os.system("killall -s 9 iperf")
+    killPing(idP1, idP2)
+    os._exit(0)
+
+#Handler para CTRL+C
+signal.signal(signal.SIGINT, signal_handler)
+
 #Portas
 porta = 4001
 portacliente = 8501
@@ -61,11 +70,11 @@ minDuracao = 5.0
 maxDuracao = 100.0
 quantidade = 500
 mediaBanda = 1910.0
-mediaTempoInicio = 0.5
-metodo = "Par/Impar"
-#metodo = "SW->HW"
+mediaTempoInicio = 0.25
+#metodo = "Par/Impar"
+metodo = "SW->HW"
 f = open("info.txt","w+")
-f.write("Metodo: %s\nSeed: %d\nQuant: %d\nDuracao(min): %d\nDuracao(max): %d\nBanda(media): %d\nTempoIni(media): %d\n" % (metodo, seed, quantidade, minDuracao, maxDuracao, mediaBanda, mediaTempoInicio))
+f.write("Metodo: %s\nSeed: %d\nQuant: %d\nDuracao(min): %f\nDuracao(max): %f\nBanda(media): %f\nTempoIni(media): %f\n" % (metodo, seed, quantidade, minDuracao, maxDuracao, mediaBanda, mediaTempoInicio))
 f.close()
 #Arquivo para salvar os dados dos iperfs
 f = open("iperfs.txt","w+")
