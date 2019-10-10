@@ -71,8 +71,8 @@ maxDuracao = 100.0
 quantidade = 1000
 mediaBanda = 1910.0
 mediaTempoInicio = 0.25
-metodo = "Par/Impar"
-#metodo = "SW->HW"
+#metodo = "Par/Impar"
+metodo = "SW->HW"
 f = open("info.txt","w+")
 f.write("Metodo: %s\nSeed: %d\nQuant: %d\nDuracao(min): %f\nDuracao(max): %f\nBanda(media): %f\nTempoIni(media): %f\n" % (metodo, seed, quantidade, minDuracao, maxDuracao, mediaBanda, mediaTempoInicio))
 f.close()
