@@ -60,19 +60,19 @@ def signal_handler(signal, frame):
 signal.signal(signal.SIGINT, signal_handler)
 
 #Portas
-porta = 4001
-portacliente = 8501
+porta = 14001
+portacliente = 18501
 #IPs
 ipserver = '10.1.0.1'
 ipcliente = '10.1.0.2'
 #Informacoes do iperf
 minDuracao = 5.0
 maxDuracao = 100.0
-quantidade = 500
+quantidade = 1000
 mediaBanda = 1910.0
 mediaTempoInicio = 0.25
-#metodo = "Par/Impar"
-metodo = "SW->HW"
+metodo = "Par/Impar"
+#metodo = "SW->HW"
 f = open("info.txt","w+")
 f.write("Metodo: %s\nSeed: %d\nQuant: %d\nDuracao(min): %f\nDuracao(max): %f\nBanda(media): %f\nTempoIni(media): %f\n" % (metodo, seed, quantidade, minDuracao, maxDuracao, mediaBanda, mediaTempoInicio))
 f.close()
