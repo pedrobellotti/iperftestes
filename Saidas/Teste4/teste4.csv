@@ -1,4 +1,4 @@
-Timestamp,IpOri,PortaOri,IpDest,PortaDest,?,Tempo,BitsEnv,Banda,Jitter,PctPerdido,PctEnv,%Perda,ForaOrdem
+Timestamp,IpOri,PortaOri,IpDest,PortaDest,?,Tempo,BytesEnv,Banda(bps),Jitter,PctPerdido,PctEnv,%Perda,ForaOrdem
 20191009113925,10.1.0.2,8505,10.1.0.1,4005,3,0.0-5.4,945210,1403893
 20191009113925,10.1.0.1,4005,10.1.0.2,8505,3,0.0-5.3,937860,1405514,0.067,5,643,0.778,0
 20191009113933,10.1.0.2,8504,10.1.0.1,4004,3,0.0-13.4,3786720,2260987

@@ -9,18 +9,18 @@ seed = 10
 np.random.seed (seed)
 
 #Cabecalho
-print ("Timestamp,IpOri,PortaOri,IpDest,PortaDest,?,Tempo,BitsEnv,Banda,Jitter,PctPerdido,PctEnv,%Perda,ForaOrdem")
+print ("Timestamp,IpOri,PortaOri,IpDest,PortaDest,?,Tempo,BytesEnv,Banda(bps),Jitter,PctPerdido,PctEnv,%Perda,ForaOrdem")
 
 def pingSW():
     #Ping na porta par
-    f = open("pingSW.txt", "w")
+    f = open("pingHW.txt", "w")
     p1 = subprocess.Popen(["./udpping.py", "10.1.0.1", "7000", "65534"], stdout=f)
     f.close()
     return p1.pid
 
 def pingHW():
     #Ping na porta impar
-    f = open("pingHW.txt", "w")
+    f = open("pingSW.txt", "w")
     p2 = subprocess.Popen(["./udpping.py", "10.1.0.1", "7001", "65535"], stdout=f)
     f.close()
     return p2.pid
@@ -71,8 +71,8 @@ maxDuracao = 100.0
 quantidade = 1000
 mediaBanda = 1910.0
 mediaTempoInicio = 0.25
-#metodo = "Par/Impar"
-metodo = "SW->HW"
+metodo = "Par/Impar"
+#metodo = "SW->HW"
 f = open("info.txt","w+")
 f.write("Metodo: %s\nSeed: %d\nQuant: %d\nDuracao(min): %f\nDuracao(max): %f\nBanda(media): %f\nTempoIni(media): %f\n" % (metodo, seed, quantidade, minDuracao, maxDuracao, mediaBanda, mediaTempoInicio))
 f.close()
