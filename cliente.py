@@ -73,9 +73,8 @@ mediaBanda = 1910.0
 mediaTempoInicio = 0.25
 metodo = "Par/Impar"
 #metodo = "SW->HW"
-f = open("info.txt","w+")
-f.write("Metodo: %s\nSeed: %d\nQuant: %d\nDuracao(min): %f\nDuracao(max): %f\nBanda(media): %f\nTempoIni(media): %f\n" % (metodo, seed, quantidade, minDuracao, maxDuracao, mediaBanda, mediaTempoInicio))
-f.close()
+fInfo = open("info.txt","w+")
+fInfo.write("Metodo: %s\nSeed: %d\nQuant: %d\nDuracao(min): %f\nDuracao(max): %f\nBanda(media): %f\nTempoIni(media): %f\n" % (metodo, seed, quantidade, minDuracao, maxDuracao, mediaBanda, mediaTempoInicio))
 #Arquivo para salvar os dados dos iperfs
 f = open("iperfs.txt","w+")
 f.write("Inicio(seg)\tDuracao(seg)\tBanda(Kbps)\tPCli\tPServ\n")
@@ -101,8 +100,10 @@ for i in range (quantidade): #Quantos iperfs vao ser gerados
     if (soma > maiorDuracao):
         maiorDuracao = soma
 #Fecha o arquivo dos iperfs
-f.write("Maior duracao (segundos): %d" % (maiorDuracao))
 f.close()
+#Fecha o arquivo info
+fInfo.write("MaiorDuracao(segundos): %f" % (maiorDuracao))
+fInfo.close()
 #Fecha os pings depois do maior tempo de duracao de iperf
 tp = Timer(maiorDuracao+3, killPing, [idP1, idP2])
 tp.start()
