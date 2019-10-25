@@ -68,9 +68,9 @@ ipcliente = '10.1.0.2'
 #Informacoes do iperf
 minDuracao = 5.0
 maxDuracao = 100.0
-quantidade = 1000
-mediaBanda = 1910.0
-mediaTempoInicio = 0.25
+quantidade = 2500
+mediaBanda = 1024.0 #1910.0
+mediaTempoInicio = 0.15 #0.25
 metodo = "Par/Impar"
 #metodo = "SW->HW"
 fInfo = open("info.txt","w+")
