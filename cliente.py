@@ -71,8 +71,8 @@ maxDuracao = 100.0
 quantidade = 2500
 mediaBanda = 1024.0 #1910.0
 mediaTempoInicio = 0.15 #0.25
-#metodo = "Par/Impar"
-metodo = "SW->HW"
+metodo = "Par/Impar"
+#metodo = "SW->HW"
 fInfo = open("info.txt","w+")
 fInfo.write("Metodo: %s\nSeed: %d\nQuant: %d\nDuracao(min): %f\nDuracao(max): %f\nBanda(media): %f\nTempoIni(media): %f\n" % (metodo, seed, quantidade, minDuracao, maxDuracao, mediaBanda, mediaTempoInicio))
 #Arquivo para salvar os dados dos iperfs
