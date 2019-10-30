@@ -1,7 +1,7 @@
 import os
 
 porta = 5001
-for i in range (200):
+for i in range (2500):
     cmd = ('iperf -u -f k -s -p %d &' % (porta))
     porta += 1
     os.system(cmd)
