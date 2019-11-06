@@ -5,7 +5,7 @@ import signal
 import subprocess
 
 #Seed global
-seed = 20
+seed = 10
 np.random.seed (seed)
 
 #Cabecalho
@@ -70,7 +70,7 @@ minDuracao = 5.0
 maxDuracao = 100.0
 quantidade = 2500
 mediaBanda = 1024.0 #1910.0
-mediaTempoInicio = 0.35 #0.15 0.25 0.35
+mediaTempoInicio = 0.30 #0.15 0.25 0.35
 #metodo = "Par/Impar"
 metodo = "SW->HW"
 fInfo = open("info.txt","w+")
