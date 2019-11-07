@@ -5,11 +5,11 @@ import signal
 import subprocess
 
 #Seed global
-seed = 10
+seed = 20
 np.random.seed (seed)
 
 #Cabecalho
-print ("Timestamp,IpOri,PortaOri,IpDest,PortaDest,?,Tempo,BytesEnv,Banda(bps),Jitter,PctPerdido,PctEnv,%Perda,ForaOrdem")
+print ("Timestamp,IpOri,PortaOri,IpDest,PortaDest,?,Tempo,KBytesEnv,Banda(bps),Jitter,PctPerdido,PctEnv,%Perda,ForaOrdem")
 
 def pingSW():
     #Ping na porta par
