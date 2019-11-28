@@ -1,6 +1,6 @@
 import os
 
-porta = 5001
+porta = 14001
 for i in range (2500):
     cmd = ('iperf -u -f k -s -p %d &' % (porta))
     porta += 1
