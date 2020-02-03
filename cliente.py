@@ -5,7 +5,7 @@ import signal
 import subprocess
 
 #Seed global
-seed = 150
+seed = 10
 np.random.seed (seed)
 
 #Cabecalho
@@ -69,10 +69,11 @@ ipcliente = '10.1.0.2'
 minDuracao = 5.0
 maxDuracao = 100.0
 quantidade = 2500
-mediaBanda = 1024.0 #1910.0
-mediaTempoInicio = 0.30 #0.15 0.25 0.35
+mediaBanda = 1024.0
+mediaTempoInicio = 0.30
 #metodo = "Par/Impar"
-metodo = "SW->HW"
+#metodo = "SW->HW"
+metodo = "HW->SW"
 fInfo = open("info.txt","w+")
 fInfo.write("Metodo: %s\nSeed: %d\nQuant: %d\nDuracao(min): %f\nDuracao(max): %f\nBanda(media): %f\nTempoIni(media): %f\n" % (metodo, seed, quantidade, minDuracao, maxDuracao, mediaBanda, mediaTempoInicio))
 #Arquivo para salvar os dados dos iperfs
