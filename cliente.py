@@ -5,7 +5,7 @@ import signal
 import subprocess
 
 #Seed global
-seed = 10
+seed = 20
 np.random.seed (seed)
 
 #Cabecalho
