@@ -5,7 +5,7 @@ import signal
 import subprocess
 
 #Seed global
-seed = 10
+seed = 40
 np.random.seed (seed)
 
 #Cabecalho
@@ -70,7 +70,7 @@ minDuracao = 5.0
 maxDuracao = 100.0
 quantidade = 2500
 mediaBanda = 1024.0
-mediaTempoInicio = 0.30
+mediaTempoInicio = 0.10
 #metodo = "Par/Impar"
 #metodo = "SW->HW"
 metodo = "HW->SW"
