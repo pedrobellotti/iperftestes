@@ -1,0 +1,2 @@
+   Time:s RegrasBloqueadas RegrasInstaladas
+  801.000        0        0
