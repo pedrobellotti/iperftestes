@@ -171,7 +171,7 @@ Reply from 10.0.0.1 seq=168 time=2.438 ms
 Reply from 10.0.0.1 seq=169 time=2.438 ms
 Reply from 10.0.0.1 seq=170 time=2.44834 ms
 Reply from 10.0.0.1 seq=171 time=2.438 ms
-Reply from 10.0.0.1 seq=172 time=2.45015 ms
+Reply from 10.0.0.1 seq=172 time=2.44825 ms
 Reply from 10.0.0.1 seq=173 time=2.44153 ms
 Reply from 10.0.0.1 seq=174 time=2.43808 ms
 Reply from 10.0.0.1 seq=175 time=2.438 ms
@@ -203,7 +203,7 @@ Reply from 10.0.0.1 seq=200 time=2.438 ms
 Reply from 10.0.0.1 seq=201 time=2.44305 ms
 Reply from 10.0.0.1 seq=202 time=2.438 ms
 Reply from 10.0.0.1 seq=203 time=2.438 ms
-Reply from 10.0.0.1 seq=204 time=2.46097 ms
+Reply from 10.0.0.1 seq=204 time=2.44875 ms
 Reply from 10.0.0.1 seq=205 time=2.44646 ms
 Reply from 10.0.0.1 seq=206 time=2.438 ms
 Reply from 10.0.0.1 seq=207 time=2.438 ms
@@ -387,7 +387,7 @@ Reply from 10.0.0.1 seq=384 time=2.438 ms
 Reply from 10.0.0.1 seq=385 time=2.438 ms
 Reply from 10.0.0.1 seq=386 time=2.438 ms
 Reply from 10.0.0.1 seq=387 time=2.44119 ms
-Reply from 10.0.0.1 seq=388 time=2.44298 ms
+Reply from 10.0.0.1 seq=388 time=2.438 ms
 Reply from 10.0.0.1 seq=389 time=2.44142 ms
 Reply from 10.0.0.1 seq=390 time=2.438 ms
 Reply from 10.0.0.1 seq=391 time=2.438 ms
@@ -395,7 +395,7 @@ Reply from 10.0.0.1 seq=392 time=2.45868 ms
 Reply from 10.0.0.1 seq=393 time=2.44861 ms
 Reply from 10.0.0.1 seq=394 time=2.4451 ms
 Reply from 10.0.0.1 seq=395 time=2.438 ms
-Reply from 10.0.0.1 seq=396 time=2.44989 ms
+Reply from 10.0.0.1 seq=396 time=2.438 ms
 Reply from 10.0.0.1 seq=397 time=2.438 ms
 Reply from 10.0.0.1 seq=398 time=2.46012 ms
 Reply from 10.0.0.1 seq=399 time=2.438 ms
@@ -440,7 +440,7 @@ Reply from 10.0.0.1 seq=437 time=2.438 ms
 Reply from 10.0.0.1 seq=438 time=2.438 ms
 Reply from 10.0.0.1 seq=439 time=2.438 ms
 Reply from 10.0.0.1 seq=440 time=2.438 ms
-Reply from 10.0.0.1 seq=441 time=2.44361 ms
+Reply from 10.0.0.1 seq=441 time=2.40361 ms
 Reply from 10.0.0.1 seq=442 time=2.44882 ms
 Reply from 10.0.0.1 seq=443 time=2.44912 ms
 Reply from 10.0.0.1 seq=444 time=2.438 ms
@@ -480,18 +480,18 @@ Reply from 10.0.0.1 seq=477 time=2.438 ms
 Reply from 10.0.0.1 seq=478 time=2.438 ms
 Reply from 10.0.0.1 seq=479 time=2.438 ms
 Reply from 10.0.0.1 seq=480 time=2.438 ms
-Reply from 10.0.0.1 seq=481 time=2.438 ms
+Reply from 10.0.0.1 seq=481 time=2.398 ms
 Reply from 10.0.0.1 seq=482 time=2.44553 ms
 Reply from 10.0.0.1 seq=483 time=2.398 ms
 Reply from 10.0.0.1 seq=484 time=2.438 ms
-Reply from 10.0.0.1 seq=485 time=2.438 ms
+Reply from 10.0.0.1 seq=485 time=2.398 ms
 Reply from 10.0.0.1 seq=486 time=2.438 ms
 Reply from 10.0.0.1 seq=487 time=2.438 ms
 Reply from 10.0.0.1 seq=488 time=2.45248 ms
 Reply from 10.0.0.1 seq=489 time=2.438 ms
 Reply from 10.0.0.1 seq=490 time=2.438 ms
 Reply from 10.0.0.1 seq=491 time=2.438 ms
-Reply from 10.0.0.1 seq=492 time=2.4602 ms
+Reply from 10.0.0.1 seq=492 time=2.44797 ms
 Reply from 10.0.0.1 seq=493 time=2.438 ms
 Reply from 10.0.0.1 seq=494 time=2.44042 ms
 Reply from 10.0.0.1 seq=495 time=2.438 ms
@@ -503,8 +503,8 @@ Reply from 10.0.0.1 seq=500 time=2.438 ms
 Reply from 10.0.0.1 seq=501 time=2.398 ms
 Reply from 10.0.0.1 seq=502 time=2.398 ms
 Reply from 10.0.0.1 seq=503 time=2.398 ms
-Reply from 10.0.0.1 seq=504 time=2.398 ms
-Reply from 10.0.0.1 seq=505 time=2.398 ms
+Reply from 10.0.0.1 seq=504 time=2.358 ms
+Reply from 10.0.0.1 seq=505 time=2.358 ms
 Reply from 10.0.0.1 seq=506 time=2.358 ms
 Reply from 10.0.0.1 seq=507 time=2.35868 ms
 Reply from 10.0.0.1 seq=508 time=2.358 ms
@@ -512,7 +512,7 @@ Reply from 10.0.0.1 seq=509 time=2.35942 ms
 Reply from 10.0.0.1 seq=510 time=2.318 ms
 Reply from 10.0.0.1 seq=511 time=2.278 ms
 Reply from 10.0.0.1 seq=512 time=2.238 ms
-Reply from 10.0.0.1 seq=513 time=2.238 ms
+Reply from 10.0.0.1 seq=513 time=2.24195 ms
 Reply from 10.0.0.1 seq=514 time=2.198 ms
 Reply from 10.0.0.1 seq=515 time=1.998 ms
 Reply from 10.0.0.1 seq=516 time=1.998 ms
