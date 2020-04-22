@@ -1,2 +1,2 @@
    Time:s RegrasBloqueadas
-  801.000       78
+  801.000      123

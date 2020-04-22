@@ -1,2 +1,2 @@
    Time:s RegrasBloqueadas
-  501.000      544
+  501.000      622
