@@ -1,0 +1,2 @@
+   Time:s RegrasBloqueadas
+  801.000       65
