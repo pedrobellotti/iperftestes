@@ -1,1 +1,0 @@
-    Time SwAtivosAntes AvgCPULoad Decisão SwAtivosDepois
